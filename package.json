@@ -1,6 +1,6 @@
 {
   "name": "@civ-clone/base-city-yield-military-unhappiness",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": "git@github.com:civ-clone/base-city-yield-military-unhappiness.git",
   "keywords": [
     "typescript",

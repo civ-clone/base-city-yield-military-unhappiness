@@ -19,6 +19,7 @@ class MilitaryUnhappiness extends Unhappiness_1.default {
         super(value, unit.id());
         _MilitaryUnhappiness_unit.set(this, void 0);
         __classPrivateFieldSet(this, _MilitaryUnhappiness_unit, unit, "f");
+        this.addKey('unit');
     }
     unit() {
         return __classPrivateFieldGet(this, _MilitaryUnhappiness_unit, "f");

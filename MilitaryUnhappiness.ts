@@ -9,6 +9,8 @@ export class MilitaryUnhappiness extends Unhappiness {
     super(value, unit.id());
 
     this.#unit = unit;
+
+    this.addKey('unit');
   }
 
   unit(): Unit {
