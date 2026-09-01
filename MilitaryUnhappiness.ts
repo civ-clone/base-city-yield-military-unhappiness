@@ -3,18 +3,18 @@ import Unit from '@civ-clone/core-unit/Unit';
 import Yield from '@civ-clone/core-yield/Yield';
 
 export class MilitaryUnhappiness extends Unhappiness {
-  #unit: Unit;
+  private _unit: Unit;
 
   constructor(value: number | Yield, unit: Unit) {
     super(value, unit.id());
 
-    this.#unit = unit;
+    this._unit = unit;
 
     this.addKey('unit');
   }
 
   unit(): Unit {
-    return this.#unit;
+    return this._unit;
   }
 }
 

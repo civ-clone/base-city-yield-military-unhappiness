@@ -2,7 +2,7 @@ import Unhappiness from '@civ-clone/base-city-yield-unhappiness/Unhappiness';
 import Unit from '@civ-clone/core-unit/Unit';
 import Yield from '@civ-clone/core-yield/Yield';
 export declare class MilitaryUnhappiness extends Unhappiness {
-  #private;
+  private _unit;
   constructor(value: number | Yield, unit: Unit);
   unit(): Unit;
 }
